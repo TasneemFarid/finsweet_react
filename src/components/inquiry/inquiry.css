@@ -1,0 +1,105 @@
+.inquiry {
+    padding: 64px 0px;
+}
+.inquiry_item {
+    display: flex;
+}
+.inquiry_left {
+    width: 55%;
+    position: relative;
+}
+.inquiry_left img {
+    width: 100%;
+}
+.inquiry_left_img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 96px 96px 261px;
+    background: rgba(28, 30, 83, 0.5);
+}
+.inquiry_left_img_overlay h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+.inquiry_left_img_overlay p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.inquiry_right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 96px 96px 48px;
+    background: #1C1E53;
+}
+.inquiry_right h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.inquiry_right p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: #F4F6FC;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+.inquiry_right input {
+    margin: 16px 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    background: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    opacity: 0.5;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.inquiry_right button {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+    background: #FCD980;
+    border-radius: 41px;
+    padding: 16px 130px;
+    margin-top: 23px;
+    margin-bottom: 28px;
+}
+.inquiry_right a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.inquiry_right i {
+    margin-left: 15px;
+}

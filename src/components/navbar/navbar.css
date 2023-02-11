@@ -1,0 +1,46 @@
+.navbar {
+    background: #1C1E53;
+    padding: 16px 0px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_items ul {
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+.nav_btn {
+    margin-left: 16px;
+}
+.nav_items ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #BBBBCB;
+    transition: 0.4s;
+}
+.nav_items ul li a:hover {
+    color: #FFF;
+}
+.nav_items ul button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFF;
+    padding: 12px 40px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    background: transparent;
+    transition: 0.4s;
+}
+.nav_items ul button:hover {
+    color: #1B1C2B;
+    background: #FCD980;
+}

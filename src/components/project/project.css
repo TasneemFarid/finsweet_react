@@ -1,0 +1,120 @@
+.project {
+    padding: 128px 0px;
+    background: #fff;
+}
+.project_top{
+    display: flex;
+    justify-content: space-between;
+}
+.project_top h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+.project_top a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+.project_top i {
+    color: #282938;
+    margin-left: 15px;
+}
+.project_btm {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.project_btm_left {
+    width: 70%;
+}
+.project_btm_right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.project_btm_left {
+    position: relative;
+    overflow: hidden;
+}
+.project_btm_left_overlay {
+    position: absolute;
+    top: -15px;
+    left: -42%;
+    content: "";
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    height: 100%;
+    width: 42%;
+    transition: 0.4s ease;
+}
+.project_btm_left:hover .project_btm_left_overlay {
+    left: 0;
+}
+.project_btm_overlay_txt {
+    padding: 312px 35px 76px 48px;
+}
+.project_btm_overlay_txt h4 {    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.project_btm_overlay_txt p {    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+.project_btm_overlay_txt a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FCD980;
+}
+.project_btm_overlay_txt i {
+   margin-left: 15px;
+}
+.low_padding {
+    padding: 129px 80px 83px 56px;
+}
+.project_btm_right_one {
+    position: relative;
+    overflow: hidden;
+}
+.project_btm_right_two {
+    position: relative;
+    overflow: hidden;
+}
+.project_btm_right_overlay {
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    height: 100%;
+    width: 100%;
+    transition: 0.4s ease;
+}
+.project_btm_right_one:hover .project_btm_right_overlay {
+    left: 0;
+}
+.project_btm_right_two:hover .project_btm_right_overlay {
+    left: 0;
+}

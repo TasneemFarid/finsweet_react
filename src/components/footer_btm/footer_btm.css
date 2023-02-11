@@ -1,0 +1,28 @@
+.footer_btm {
+    padding: 32px 0px;
+    background: #fff;
+}
+.footer_btm_items {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+.footer_menu ul {
+    display: flex;
+    column-gap: 32px;
+}
+.footer_menu ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}

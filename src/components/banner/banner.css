@@ -1,0 +1,57 @@
+.banner {
+    padding: 126px 0px;
+    background: #1C1E53;
+}
+.banner_item {
+    display: flex;
+    justify-content: space-between;
+}
+.banner_text h1 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 54px;
+	line-height: 74px;
+	color: #FFFFFF;
+	padding-right: 20px;
+    padding-bottom: 24px;
+}
+.banner_text p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	opacity: 0.7;
+	padding-right: 105px;
+}
+.banner_btn {
+    margin-top: 48px;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.price_link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.banner_btn i {
+    margin-left: 16px;
+    vertical-align: middle;
+}
+.work_btn {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+    padding: 16px 56px;
+    background: #FCD980;
+    border-radius: 41px;
+}
